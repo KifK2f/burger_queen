@@ -120,21 +120,87 @@ class MyHomePage extends StatelessWidget {
                 ),
 
             //Section En ce moment
-            SizedBox(
-              height: 500,
-              width: MediaQuery.of(context).size.width,
-              child: Card(
-                clipBehavior: Clip.antiAlias,
-                elevation: 8,
-                margin: EdgeInsets.all(30),
-                child: Image.asset(
-                    "assets/images/layer-burger.jpg",
-                  fit: BoxFit.cover,
+            Column(
+              children: [
+                Row(
+                  children: [
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                        "En ce moment",
+                      textAlign: TextAlign.left,
+                      style: TextStyle(
+                          fontSize: 25,
+                        color: Colors.brown,
+                        fontWeight: FontWeight.w700
+                      ),
+                    ),
+                  ],
                 ),
 
-              ),
+                Row(
+                  children: [
+                    Stack(
+                      alignment: Alignment.center,
+                      children: [
 
+                       SizedBox(
+                          height: 500,
+                          width: MediaQuery.of(context).size.width,
+                          child: Card(
+                            clipBehavior: Clip.antiAlias,
+                            elevation: 8,
+                            margin: EdgeInsets.fromLTRB(30,0,30,30),
+                            // margin: EdgeInsets.all(30),
+                            child: Image.asset(
+                              "assets/images/layer-burger.jpg",
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
+
+                        Container(
+                            height: 500,
+                          // color: Colors.yellow,
+                          child: Column(
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              Text(
+                                "une petite faim?",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                    fontSize: 17,
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.w700
+                                ),
+                              ),
+                              Spacer(
+                                flex: 3,
+                              ),                              Text(
+                                "Venez personnaliser votre Burger",
+                                textAlign: TextAlign.center,
+                                style: TextStyle(
+                                    fontSize: 17,
+                                    fontWeight: FontWeight.w700,
+                                  backgroundColor: Colors.pink,
+                                ),
+                              ),
+                              SizedBox(
+                                height: 30,
+                              )
+                            ],
+                          ),
+                        ),
+
+                      ],
+                    ),
+
+                  ],
+                ),
+              ],
             ),
+
 
 
                 Container(
