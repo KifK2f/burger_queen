@@ -145,7 +145,7 @@ class MyHomePage extends StatelessWidget {
                       alignment: Alignment.center,
                       children: [
 
-                       SizedBox(
+                       Container(
                           height: 500,
                           width: MediaQuery.of(context).size.width,
                           child: Card(
@@ -202,15 +202,118 @@ class MyHomePage extends StatelessWidget {
             ),
 
 
-
-                Container(
-                  color: Colors.white70,
-                  height: 254,
-                  child: Card()
-                ),
+        //Section des burgers
                 Container(
                   color: Colors.lightGreen,
-                  height: 454,
+                  width: MediaQuery.of(context).size.width,
+                  height: 400,
+                  child:  Column(
+                    children: [
+
+                   Wrap(
+                          children: [
+                            Container(),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Text(
+                              "Chaud devant",
+                              textAlign: TextAlign.left,
+                              style: TextStyle(
+                                  fontSize: 25,
+                                  color: Colors.brown,
+                                  fontWeight: FontWeight.w700
+                              ),
+                            ),
+
+                          ],
+                        ),   Wrap(
+                          children: [
+                            Container(),
+                            SizedBox(
+                              width: 10,
+                            ),
+                            Text(
+                              "Le meilleur de nos burgers à portée de clic",
+                              textAlign: TextAlign.left,
+                              style: TextStyle(
+                                fontSize: 15,
+                              ),
+                            ),
+
+                          ],
+                        ),
+
+
+
+
+                            Padding(
+                                        padding: const EdgeInsets.all(10),
+                                        child: SingleChildScrollView(
+                                          scrollDirection: Axis.horizontal,
+                                          child:  Row(
+                                            children: [
+                                              Card(
+                                                clipBehavior: Clip.antiAlias,
+                                                elevation: 8,
+                                                // margin: EdgeInsets.fromLTRB(30,0,30,30),
+                                                margin: EdgeInsets.all(20),
+                                                child: Image.asset(
+                                                  "assets/images/twins.jpg",
+                                                  fit: BoxFit.cover,
+                                                  width: 200,
+                                                  height: 200,
+                                                ),
+                                              ),
+
+                                                  Card(
+                                                clipBehavior: Clip.antiAlias,
+                                                elevation: 8,
+                                                // margin: EdgeInsets.fromLTRB(30,0,30,30),
+                                                margin: EdgeInsets.all(20),
+                                                child: Image.asset(
+                                                  "assets/images/twins.jpg",
+                                                  fit: BoxFit.cover,
+                                                  width: 200,
+                                                  height: 200,
+                                                ),
+                                              ),
+
+                                                      Card(
+                                                clipBehavior: Clip.antiAlias,
+                                                elevation: 8,
+                                                // margin: EdgeInsets.fromLTRB(30,0,30,30),
+                                                margin: EdgeInsets.all(20),
+                                                child: Image.asset(
+                                                  "assets/images/twins.jpg",
+                                                  fit: BoxFit.cover,
+                                                  width: 200,
+                                                  height: 200,
+                                                ),
+                                              ),
+
+                                                  Card(
+                                                clipBehavior: Clip.antiAlias,
+                                                elevation: 8,
+                                                // margin: EdgeInsets.fromLTRB(30,0,30,30),
+                                                margin: EdgeInsets.all(20),
+                                                child: Image.asset(
+                                                  "assets/images/twins.jpg",
+                                                  fit: BoxFit.cover,
+                                                  width: 200,
+                                                  height: 200,
+                                                ),
+                                              ),
+
+                                                                                            ],
+
+                                          ),
+                                        )
+                                    ),
+                          ],
+
+
+                  ),
                 ),
                 Container(
                   color: Colors.red,
