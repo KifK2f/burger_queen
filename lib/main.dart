@@ -42,6 +42,8 @@ class MyHomePage extends StatelessWidget {
        scrollDirection: Axis.vertical,
         child: Column(
           children: [
+
+            //Section Restaurant le plus proche
           Container(
                   color: const Color(0xFFFF99C8),
                   height: 150,
@@ -59,7 +61,10 @@ class MyHomePage extends StatelessWidget {
                               children: [
                                 Row(
                                   children: [
-                                    Icon(Icons.location_pin),
+                                    Icon(
+                                        Icons.location_pin,
+                                        size: 30,
+                                    ),
                                     Text(
                                         "Mon restaurant le plus proche",
                                       style: TextStyle(
@@ -76,9 +81,9 @@ class MyHomePage extends StatelessWidget {
 
                                 Padding(
                                   padding: EdgeInsets.all(2),
-                                  
+
                                   child: SizedBox(
-                                    height: 60,
+                                    height: 50,
                                     child: Card(
                                       // margin: EdgeInsets.fromLTRB(0, 10, 0, 0),
                                       color: Colors.pink,
@@ -93,7 +98,7 @@ class MyHomePage extends StatelessWidget {
                                             "Commander",
                                             style: TextStyle(
                                                 color: Colors.white,
-                                                fontSize: 15
+                                                fontSize: 17
                                             ),
                                           ),
                                         ],
@@ -113,9 +118,29 @@ class MyHomePage extends StatelessWidget {
                   ),
 
                 ),
+
+            //Section En ce moment
+            SizedBox(
+              height: 500,
+              width: MediaQuery.of(context).size.width,
+              child: Card(
+                clipBehavior: Clip.antiAlias,
+                elevation: 8,
+                margin: EdgeInsets.all(30),
+                child: Image.asset(
+                    "assets/images/layer-burger.jpg",
+                  fit: BoxFit.cover,
+                ),
+
+              ),
+
+            ),
+
+
                 Container(
-                  color: Colors.orange,
+                  color: Colors.white70,
                   height: 254,
+                  child: Card()
                 ),
                 Container(
                   color: Colors.lightGreen,
