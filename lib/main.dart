@@ -46,49 +46,72 @@ class MyHomePage extends StatelessWidget {
                   color: const Color(0xFFFF99C8),
                   height: 150,
                   width: MediaQuery.of(context).size.width,
-                  child: Card(
-                    child:  const Column(
+                  child:
+                  Padding(
+                      padding: EdgeInsets.all(10),
+                    child: Card(
+                      margin: EdgeInsets.all(10),
+                      child: Column(
                         children: [
-                          Row(
-                            children: [
-                              Icon(Icons.location_pin),
-                              Spacer(),
-                              Text(
-                                "Mon restaurant le plus proche",
-                                style: TextStyle(
-                                    color: Colors.lightBlue,
+                          Padding(
+                              padding: EdgeInsets.all(10),
+                            child: Column(
+                              children: [
+                                Row(
+                                  children: [
+                                    Icon(Icons.location_pin),
+                                    Text(
+                                        "Mon restaurant le plus proche",
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
+                                    Spacer(),
+                                    Text(
+                                        "4km"
+                                    ),
+                                  ],
                                 ),
-                              ),
-                              Spacer(),
-                              Text(
-                                "4km",
-                                style: TextStyle(
-                                    color: Colors.lightBlue,
-                                ),
-                              ),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              CircleAvatar(
-                                radius: 24,
-                                backgroundImage: AssetImage("assets/images/surf.jpg"),
-                              ),
-                              Spacer(),
-                              Text(
-                                "Friedo TheCodeHunter",
-                                style: TextStyle(
-                                    color: Colors.lightBlue,
-                                    fontWeight: FontWeight.bold,
-                                    fontSize: 20
-                                ),
-                              ),
-                            ],
+
+                                Padding(
+                                  padding: EdgeInsets.all(2),
+                                  
+                                  child: SizedBox(
+                                    height: 60,
+                                    child: Card(
+                                      // margin: EdgeInsets.fromLTRB(0, 10, 0, 0),
+                                      color: Colors.pink,
+                                      child: Row(
+                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        children: [
+                                          Icon(
+                                            Icons.touch_app,
+                                            color: Colors.white,
+                                          ),
+                                          Text(
+                                            "Commander",
+                                            style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 15
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+
+                                    ),),
+                                  ),
+
+                              ],
+                            ),
                           ),
 
+
                         ],
+                      ),
                     ),
                   ),
+
                 ),
                 Container(
                   color: Colors.orange,
