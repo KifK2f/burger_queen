@@ -480,6 +480,148 @@ class MyHomePage extends StatelessWidget {
 
                   ),
                 ),
+
+
+        //Section de accompagnements
+            //Section Restaurant le plus proche
+            Container(
+              // color: const Color(0xFFFF99C8),
+              height: 481,
+              width: MediaQuery.of(context).size.width,
+              child:
+              Column(
+                children: [
+                  Wrap(
+                    children: [
+                      Container(),
+                      SizedBox(
+                        width: 10,
+                      ),
+                      Text(
+                        "Les accompagnements",
+                        textAlign: TextAlign.left,
+                        style: TextStyle(
+                            fontSize: 25,
+                            color: Colors.brown,
+                            fontWeight: FontWeight.w700
+                        ),
+                      ),
+
+                    ],
+                  ),
+
+                  Padding(
+                    padding: EdgeInsets.all(0),
+                    child: Card(
+                      color: Color.fromRGBO(230, 230, 230, 1.0),
+                      elevation: 8,
+                      margin: EdgeInsets.all(10),
+                      child: Column(
+                        children: [
+                          Padding(
+                            padding: EdgeInsets.all(10),
+                            child: Column(
+                              children: [
+
+                                //Accoompagnement Frites classique
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                      CircleAvatar(
+                                        radius: 45,
+                                        backgroundImage: AssetImage("assets/images/fries.jpg"),
+                                      ),
+                                    Text(
+                                      "Frites classique",
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.pink,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Divider(
+                                  height: 15,
+                                ),
+
+                                //Accoompagnement Frites de patate douce
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                      CircleAvatar(
+                                        radius: 45,
+                                        backgroundImage: AssetImage("assets/images/patate-douce.jpg"),
+                                      ),
+                                    Text(
+                                      "Frites de patate douce",
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.pink,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Divider(
+                                  height: 15,
+                                ),
+
+
+                                //Accoompagnement Poutine
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                      CircleAvatar(
+                                        radius: 45,
+                                        backgroundImage: AssetImage("assets/images/poutine.jpg"),
+                                      ),
+                                    Text(
+                                      "Poutine",
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.pink,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                                Divider(
+                                  height: 15,
+                                ),
+
+                                //Accoompagnement Potatoes
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                      CircleAvatar(
+                                        radius: 45,
+                                        backgroundImage: AssetImage("assets/images/potatoes.jpg"),
+                                      ),
+                                    Text(
+                                      "Potatoes",
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.pink,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+
+                              ],
+                            ),
+                          ),
+
+
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+
+            ),
                 Container(
                   color: Colors.red,
                   height: 128,
