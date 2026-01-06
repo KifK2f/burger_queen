@@ -204,7 +204,6 @@ class MyHomePage extends StatelessWidget {
 
         //Section des burgers
                 Container(
-                  color: Colors.lightGreen,
                   width: MediaQuery.of(context).size.width,
                   height: 370,
                   child:  Column(
@@ -251,9 +250,11 @@ class MyHomePage extends StatelessWidget {
                                           scrollDirection: Axis.horizontal,
                                           child:  Row(
                                             children: [
+
+                                              //Burger Twins
                                               Card(
                                                 clipBehavior: Clip.antiAlias,
-                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                margin: const EdgeInsets.fromLTRB(15,0,35,10),
                                                 // margin: EdgeInsets.all(10),
                                                 child: Column(
 
@@ -269,7 +270,7 @@ class MyHomePage extends StatelessWidget {
                                                   color: const Color(0xFFFF99C8),
                                                   width: 280,
                                                   child: Padding(
-                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    padding: const EdgeInsets.fromLTRB(10,0,10,25),
                                                     child: Column(
                                                       children: [
                                                       Text(
@@ -282,7 +283,7 @@ class MyHomePage extends StatelessWidget {
                                                       ), Text(
                                                         "Le burger des jumeaux qui font la paire",
                                                         style: TextStyle(
-                                                          fontSize: 13,
+                                                          fontSize: 15,
                                                           fontWeight: FontWeight.w400
                                                         ),
                                                       ),
@@ -293,15 +294,17 @@ class MyHomePage extends StatelessWidget {
                                                   ],
                                                 ),
                                               ),
+
+                                              // Burger Big Queen
                                                     Card(
                                                 clipBehavior: Clip.antiAlias,
-                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                margin: const EdgeInsets.fromLTRB(15,0,35,10),
                                                 // margin: EdgeInsets.all(10),
                                                 child: Column(
 
                                                   children: [
                                                     Image.asset(
-                                                      "assets/images/twins.jpg",
+                                                      "assets/images/big-queen.jpg",
                                                       fit: BoxFit.fitWidth,
                                                       width: 280,
                                                       height: 200,
@@ -311,20 +314,20 @@ class MyHomePage extends StatelessWidget {
                                                   color: const Color(0xFFFF99C8),
                                                   width: 280,
                                                   child: Padding(
-                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    padding: const EdgeInsets.fromLTRB(10,0,10,25),
                                                     child: Column(
                                                       children: [
                                                       Text(
-                                                        "Twins",
+                                                        "Big Queen",
                                                         style: TextStyle(
                                                             fontSize: 25,
                                                             color: Colors.brown,
                                                             fontWeight: FontWeight.w700
                                                         ),
                                                       ), Text(
-                                                        "Le burger des jumeaux qui font la paire",
+                                                        "Pour celles qui portent la couronne à la maison",
                                                         style: TextStyle(
-                                                          fontSize: 13,
+                                                          fontSize: 15,
                                                           fontWeight: FontWeight.w400
                                                         ),
                                                       ),
@@ -335,15 +338,17 @@ class MyHomePage extends StatelessWidget {
                                                   ],
                                                 ),
                                               ),
+
+                                                    //Burger Egg Bacon
                                                     Card(
                                                 clipBehavior: Clip.antiAlias,
-                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                margin: const EdgeInsets.fromLTRB(15,0,35,10),
                                                 // margin: EdgeInsets.all(10),
                                                 child: Column(
 
                                                   children: [
                                                     Image.asset(
-                                                      "assets/images/twins.jpg",
+                                                      "assets/images/egg-bacon-burger.jpg",
                                                       fit: BoxFit.fitWidth,
                                                       width: 280,
                                                       height: 200,
@@ -353,20 +358,20 @@ class MyHomePage extends StatelessWidget {
                                                   color: const Color(0xFFFF99C8),
                                                   width: 280,
                                                   child: Padding(
-                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    padding: const EdgeInsets.fromLTRB(10,0,10,25),
                                                     child: Column(
                                                       children: [
                                                       Text(
-                                                        "Twins",
+                                                        "Egg Bacon ",
                                                         style: TextStyle(
                                                             fontSize: 25,
                                                             color: Colors.brown,
                                                             fontWeight: FontWeight.w700
                                                         ),
                                                       ), Text(
-                                                        "Le burger des jumeaux qui font la paire",
+                                                        "Le burger des lève tôt\n",
                                                         style: TextStyle(
-                                                          fontSize: 13,
+                                                          fontSize: 15,
                                                           fontWeight: FontWeight.w400
                                                         ),
                                                       ),
@@ -377,15 +382,17 @@ class MyHomePage extends StatelessWidget {
                                                   ],
                                                 ),
                                               ),
+
+                                                    //Burger Prince
                                                     Card(
                                                 clipBehavior: Clip.antiAlias,
-                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                margin: const EdgeInsets.fromLTRB(15,0,35,10),
                                                 // margin: EdgeInsets.all(10),
                                                 child: Column(
 
                                                   children: [
                                                     Image.asset(
-                                                      "assets/images/twins.jpg",
+                                                      "assets/images/prince.jpg",
                                                       fit: BoxFit.fitWidth,
                                                       width: 280,
                                                       height: 200,
@@ -395,20 +402,20 @@ class MyHomePage extends StatelessWidget {
                                                   color: const Color(0xFFFF99C8),
                                                   width: 280,
                                                   child: Padding(
-                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    padding: const EdgeInsets.fromLTRB(10,0,10,25),
                                                     child: Column(
                                                       children: [
                                                       Text(
-                                                        "Twins",
+                                                        "Prince",
                                                         style: TextStyle(
                                                             fontSize: 25,
                                                             color: Colors.brown,
                                                             fontWeight: FontWeight.w700
                                                         ),
                                                       ), Text(
-                                                        "Le burger des jumeaux qui font la paire",
+                                                        "Le préféré des futurs rois\n",
                                                         style: TextStyle(
-                                                          fontSize: 13,
+                                                          fontSize: 15,
                                                           fontWeight: FontWeight.w400
                                                         ),
                                                       ),
@@ -419,15 +426,17 @@ class MyHomePage extends StatelessWidget {
                                                   ],
                                                 ),
                                               ),
+
+                                                    //Burger Cheese
                                                     Card(
                                                 clipBehavior: Clip.antiAlias,
-                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                margin: const EdgeInsets.fromLTRB(15,0,35,10),
                                                 // margin: EdgeInsets.all(10),
                                                 child: Column(
 
                                                   children: [
                                                     Image.asset(
-                                                      "assets/images/twins.jpg",
+                                                      "assets/images/cheese.jpg",
                                                       fit: BoxFit.fitWidth,
                                                       width: 280,
                                                       height: 200,
@@ -437,18 +446,18 @@ class MyHomePage extends StatelessWidget {
                                                   color: const Color(0xFFFF99C8),
                                                   width: 280,
                                                   child: Padding(
-                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    padding: const EdgeInsets.fromLTRB(10,0,10,25),
                                                     child: Column(
                                                       children: [
                                                       Text(
-                                                        "Twins",
+                                                        "Cheese",
                                                         style: TextStyle(
                                                             fontSize: 25,
                                                             color: Colors.brown,
                                                             fontWeight: FontWeight.w700
                                                         ),
                                                       ), Text(
-                                                        "Le burger des jumeaux qui font la paire",
+                                                        "Le classique pour les fans de fromage\n",
                                                         style: TextStyle(
                                                           fontSize: 13,
                                                           fontWeight: FontWeight.w400
@@ -461,50 +470,7 @@ class MyHomePage extends StatelessWidget {
                                                   ],
                                                 ),
                                               ),
-                                                    Card(
-                                                clipBehavior: Clip.antiAlias,
-                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
-                                                // margin: EdgeInsets.all(10),
-                                                child: Column(
-
-                                                  children: [
-                                                    Image.asset(
-                                                      "assets/images/twins.jpg",
-                                                      fit: BoxFit.fitWidth,
-                                                      width: 280,
-                                                      height: 200,
-                                                    ),
-
-                                                Container(
-                                                  color: const Color(0xFFFF99C8),
-                                                  width: 280,
-                                                  child: Padding(
-                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
-                                                    child: Column(
-                                                      children: [
-                                                      Text(
-                                                        "Twins",
-                                                        style: TextStyle(
-                                                            fontSize: 25,
-                                                            color: Colors.brown,
-                                                            fontWeight: FontWeight.w700
-                                                        ),
-                                                      ), Text(
-                                                        "Le burger des jumeaux qui font la paire",
-                                                        style: TextStyle(
-                                                          fontSize: 13,
-                                                          fontWeight: FontWeight.w400
-                                                        ),
-                                                      ),
-                                                  ],),
-                                                  ),
-                                                ),
-
-                                                  ],
-                                                ),
-                                              ),
-
-                                                                                        ],
+                                                                                                                                            ],
 
                                           ),
                                         )
