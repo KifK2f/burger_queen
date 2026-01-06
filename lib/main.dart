@@ -43,8 +43,8 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           children: [
 
-            //Section Restaurant le plus proche
-          Container(
+        //Section Restaurant le plus proche
+        Container(
                   color: const Color(0xFFFF99C8),
                   height: 150,
                   width: MediaQuery.of(context).size.width,
@@ -119,8 +119,8 @@ class MyHomePage extends StatelessWidget {
 
                 ),
 
-            //Section En ce moment
-            Column(
+        //Section En ce moment
+        Column(
               children: [
                 Row(
                   children: [
@@ -203,7 +203,7 @@ class MyHomePage extends StatelessWidget {
 
 
         //Section des burgers
-                Container(
+        Container(
                   width: MediaQuery.of(context).size.width,
                   height: 370,
                   child:  Column(
@@ -484,7 +484,7 @@ class MyHomePage extends StatelessWidget {
 
         //Section de accompagnements
             //Section Restaurant le plus proche
-            Container(
+        Container(
               // color: const Color(0xFFFF99C8),
               height: 481,
               width: MediaQuery.of(context).size.width,
@@ -622,6 +622,254 @@ class MyHomePage extends StatelessWidget {
               ),
 
             ),
+
+        //Section des boissons
+        Container(
+          width: MediaQuery.of(context).size.width,
+          height: 370,
+          child:  Column(
+            children: [
+              Wrap(
+                children: [
+                  Container(),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Text(
+                    "Une petite soif?",
+                    textAlign: TextAlign.left,
+                    style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.brown,
+                        fontWeight: FontWeight.w700
+                    ),
+                  ),
+
+                ],
+              ),
+              Container(
+                color: const Color(0xFFFF99C8),
+                width: MediaQuery.of(context).size.width,
+                child: Padding(
+                    // padding: const EdgeInsets.fromLTRB(10,15,90,15),
+                    padding: const EdgeInsets.all(0),
+                    child: SingleChildScrollView(
+                      scrollDirection: Axis.horizontal,
+                      child:  Row(
+                        children: [
+
+                          //Boisson Le classique
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(10,10,15,10),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                      Image.asset(
+                                        "assets/images/classic-cola.jpg",
+                                        fit: BoxFit.cover,
+                                        width: 150,
+                                        height: 280,
+                                      ),
+                                    Container(
+                                      // color: Colors.yellow,
+                                      height: 280,
+                                      child: Text(
+                                        "Le classique",
+                                        style: TextStyle(
+                                            fontSize: 20,
+                                            color: Colors.pinkAccent,
+                                            fontWeight: FontWeight.w700
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+
+//Boisson Le classique
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(10,10,15,10),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                      Image.asset(
+                                        "assets/images/classic-cola.jpg",
+                                        fit: BoxFit.cover,
+                                        width: 150,
+                                        height: 280,
+                                      ),
+                                    Container(
+                                      // color: Colors.yellow,
+                                      height: 280,
+                                      child: Text(
+                                        "Le classique",
+                                        style: TextStyle(
+                                            fontSize: 20,
+                                            color: Colors.pinkAccent,
+                                            fontWeight: FontWeight.w700
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+
+//Boisson Le classique
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(10,10,15,10),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                      Image.asset(
+                                        "assets/images/classic-cola.jpg",
+                                        fit: BoxFit.cover,
+                                        width: 150,
+                                        height: 280,
+                                      ),
+                                    Container(
+                                      // color: Colors.yellow,
+                                      height: 280,
+                                      child: Text(
+                                        "Le classique",
+                                        style: TextStyle(
+                                            fontSize: 20,
+                                            color: Colors.pinkAccent,
+                                            fontWeight: FontWeight.w700
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+
+//Boisson Le classique
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(10,10,15,10),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                      Image.asset(
+                                        "assets/images/classic-cola.jpg",
+                                        fit: BoxFit.cover,
+                                        width: 150,
+                                        height: 280,
+                                      ),
+                                    Container(
+                                      // color: Colors.yellow,
+                                      height: 280,
+                                      child: Text(
+                                        "Le classique",
+                                        style: TextStyle(
+                                            fontSize: 20,
+                                            color: Colors.pinkAccent,
+                                            fontWeight: FontWeight.w700
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+
+//Boisson Le classique
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(10,10,15,10),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                      Image.asset(
+                                        "assets/images/classic-cola.jpg",
+                                        fit: BoxFit.cover,
+                                        width: 150,
+                                        height: 280,
+                                      ),
+                                    Container(
+                                      // color: Colors.yellow,
+                                      height: 280,
+                                      child: Text(
+                                        "Le classique",
+                                        style: TextStyle(
+                                            fontSize: 20,
+                                            color: Colors.pinkAccent,
+                                            fontWeight: FontWeight.w700
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+
+//Boisson Le classique
+                          Container(
+                            margin: const EdgeInsets.fromLTRB(10,10,15,10),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                      Image.asset(
+                                        "assets/images/classic-cola.jpg",
+                                        fit: BoxFit.cover,
+                                        width: 150,
+                                        height: 280,
+                                      ),
+                                    Container(
+                                      // color: Colors.yellow,
+                                      height: 280,
+                                      child: Text(
+                                        "Le classique",
+                                        style: TextStyle(
+                                            fontSize: 20,
+                                            color: Colors.pinkAccent,
+                                            fontWeight: FontWeight.w700
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
+
+
+
+                        ],
+
+                      ),
+                    )
+                ),
+              ),
+            ],
+
+
+          ),
+        ),
+
                 Container(
                   color: Colors.red,
                   height: 128,
