@@ -206,7 +206,7 @@ class MyHomePage extends StatelessWidget {
                 Container(
                   color: Colors.lightGreen,
                   width: MediaQuery.of(context).size.width,
-                  height: 400,
+                  height: 370,
                   child:  Column(
                     children: [
 
@@ -243,69 +243,268 @@ class MyHomePage extends StatelessWidget {
 
                           ],
                         ),
-
-
-
+                      Spacer(),
 
                             Padding(
-                                        padding: const EdgeInsets.all(10),
+                                        padding: const EdgeInsets.all(0),
                                         child: SingleChildScrollView(
                                           scrollDirection: Axis.horizontal,
                                           child:  Row(
                                             children: [
                                               Card(
                                                 clipBehavior: Clip.antiAlias,
-                                                elevation: 8,
-                                                // margin: EdgeInsets.fromLTRB(30,0,30,30),
-                                                margin: EdgeInsets.all(20),
-                                                child: Image.asset(
-                                                  "assets/images/twins.jpg",
-                                                  fit: BoxFit.cover,
-                                                  width: 200,
-                                                  height: 200,
+                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                // margin: EdgeInsets.all(10),
+                                                child: Column(
+
+                                                  children: [
+                                                    Image.asset(
+                                                      "assets/images/twins.jpg",
+                                                      fit: BoxFit.fitWidth,
+                                                      width: 280,
+                                                      height: 200,
+                                                    ),
+
+                                                Container(
+                                                  color: const Color(0xFFFF99C8),
+                                                  width: 280,
+                                                  child: Padding(
+                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    child: Column(
+                                                      children: [
+                                                      Text(
+                                                        "Twins",
+                                                        style: TextStyle(
+                                                            fontSize: 25,
+                                                            color: Colors.brown,
+                                                            fontWeight: FontWeight.w700
+                                                        ),
+                                                      ), Text(
+                                                        "Le burger des jumeaux qui font la paire",
+                                                        style: TextStyle(
+                                                          fontSize: 13,
+                                                          fontWeight: FontWeight.w400
+                                                        ),
+                                                      ),
+                                                  ],),
+                                                  ),
+                                                ),
+
+                                                  ],
                                                 ),
                                               ),
-
-                                                  Card(
+                                                    Card(
                                                 clipBehavior: Clip.antiAlias,
-                                                elevation: 8,
-                                                // margin: EdgeInsets.fromLTRB(30,0,30,30),
-                                                margin: EdgeInsets.all(20),
-                                                child: Image.asset(
-                                                  "assets/images/twins.jpg",
-                                                  fit: BoxFit.cover,
-                                                  width: 200,
-                                                  height: 200,
+                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                // margin: EdgeInsets.all(10),
+                                                child: Column(
+
+                                                  children: [
+                                                    Image.asset(
+                                                      "assets/images/twins.jpg",
+                                                      fit: BoxFit.fitWidth,
+                                                      width: 280,
+                                                      height: 200,
+                                                    ),
+
+                                                Container(
+                                                  color: const Color(0xFFFF99C8),
+                                                  width: 280,
+                                                  child: Padding(
+                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    child: Column(
+                                                      children: [
+                                                      Text(
+                                                        "Twins",
+                                                        style: TextStyle(
+                                                            fontSize: 25,
+                                                            color: Colors.brown,
+                                                            fontWeight: FontWeight.w700
+                                                        ),
+                                                      ), Text(
+                                                        "Le burger des jumeaux qui font la paire",
+                                                        style: TextStyle(
+                                                          fontSize: 13,
+                                                          fontWeight: FontWeight.w400
+                                                        ),
+                                                      ),
+                                                  ],),
+                                                  ),
+                                                ),
+
+                                                  ],
                                                 ),
                                               ),
-
-                                                      Card(
+                                                    Card(
                                                 clipBehavior: Clip.antiAlias,
-                                                elevation: 8,
-                                                // margin: EdgeInsets.fromLTRB(30,0,30,30),
-                                                margin: EdgeInsets.all(20),
-                                                child: Image.asset(
-                                                  "assets/images/twins.jpg",
-                                                  fit: BoxFit.cover,
-                                                  width: 200,
-                                                  height: 200,
+                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                // margin: EdgeInsets.all(10),
+                                                child: Column(
+
+                                                  children: [
+                                                    Image.asset(
+                                                      "assets/images/twins.jpg",
+                                                      fit: BoxFit.fitWidth,
+                                                      width: 280,
+                                                      height: 200,
+                                                    ),
+
+                                                Container(
+                                                  color: const Color(0xFFFF99C8),
+                                                  width: 280,
+                                                  child: Padding(
+                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    child: Column(
+                                                      children: [
+                                                      Text(
+                                                        "Twins",
+                                                        style: TextStyle(
+                                                            fontSize: 25,
+                                                            color: Colors.brown,
+                                                            fontWeight: FontWeight.w700
+                                                        ),
+                                                      ), Text(
+                                                        "Le burger des jumeaux qui font la paire",
+                                                        style: TextStyle(
+                                                          fontSize: 13,
+                                                          fontWeight: FontWeight.w400
+                                                        ),
+                                                      ),
+                                                  ],),
+                                                  ),
+                                                ),
+
+                                                  ],
                                                 ),
                                               ),
-
-                                                  Card(
+                                                    Card(
                                                 clipBehavior: Clip.antiAlias,
-                                                elevation: 8,
-                                                // margin: EdgeInsets.fromLTRB(30,0,30,30),
-                                                margin: EdgeInsets.all(20),
-                                                child: Image.asset(
-                                                  "assets/images/twins.jpg",
-                                                  fit: BoxFit.cover,
-                                                  width: 200,
-                                                  height: 200,
+                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                // margin: EdgeInsets.all(10),
+                                                child: Column(
+
+                                                  children: [
+                                                    Image.asset(
+                                                      "assets/images/twins.jpg",
+                                                      fit: BoxFit.fitWidth,
+                                                      width: 280,
+                                                      height: 200,
+                                                    ),
+
+                                                Container(
+                                                  color: const Color(0xFFFF99C8),
+                                                  width: 280,
+                                                  child: Padding(
+                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    child: Column(
+                                                      children: [
+                                                      Text(
+                                                        "Twins",
+                                                        style: TextStyle(
+                                                            fontSize: 25,
+                                                            color: Colors.brown,
+                                                            fontWeight: FontWeight.w700
+                                                        ),
+                                                      ), Text(
+                                                        "Le burger des jumeaux qui font la paire",
+                                                        style: TextStyle(
+                                                          fontSize: 13,
+                                                          fontWeight: FontWeight.w400
+                                                        ),
+                                                      ),
+                                                  ],),
+                                                  ),
+                                                ),
+
+                                                  ],
+                                                ),
+                                              ),
+                                                    Card(
+                                                clipBehavior: Clip.antiAlias,
+                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                // margin: EdgeInsets.all(10),
+                                                child: Column(
+
+                                                  children: [
+                                                    Image.asset(
+                                                      "assets/images/twins.jpg",
+                                                      fit: BoxFit.fitWidth,
+                                                      width: 280,
+                                                      height: 200,
+                                                    ),
+
+                                                Container(
+                                                  color: const Color(0xFFFF99C8),
+                                                  width: 280,
+                                                  child: Padding(
+                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    child: Column(
+                                                      children: [
+                                                      Text(
+                                                        "Twins",
+                                                        style: TextStyle(
+                                                            fontSize: 25,
+                                                            color: Colors.brown,
+                                                            fontWeight: FontWeight.w700
+                                                        ),
+                                                      ), Text(
+                                                        "Le burger des jumeaux qui font la paire",
+                                                        style: TextStyle(
+                                                          fontSize: 13,
+                                                          fontWeight: FontWeight.w400
+                                                        ),
+                                                      ),
+                                                  ],),
+                                                  ),
+                                                ),
+
+                                                  ],
+                                                ),
+                                              ),
+                                                    Card(
+                                                clipBehavior: Clip.antiAlias,
+                                                margin: EdgeInsets.fromLTRB(15,0,35,10),
+                                                // margin: EdgeInsets.all(10),
+                                                child: Column(
+
+                                                  children: [
+                                                    Image.asset(
+                                                      "assets/images/twins.jpg",
+                                                      fit: BoxFit.fitWidth,
+                                                      width: 280,
+                                                      height: 200,
+                                                    ),
+
+                                                Container(
+                                                  color: const Color(0xFFFF99C8),
+                                                  width: 280,
+                                                  child: Padding(
+                                                    padding: EdgeInsets.fromLTRB(10,0,10,25),
+                                                    child: Column(
+                                                      children: [
+                                                      Text(
+                                                        "Twins",
+                                                        style: TextStyle(
+                                                            fontSize: 25,
+                                                            color: Colors.brown,
+                                                            fontWeight: FontWeight.w700
+                                                        ),
+                                                      ), Text(
+                                                        "Le burger des jumeaux qui font la paire",
+                                                        style: TextStyle(
+                                                          fontSize: 13,
+                                                          fontWeight: FontWeight.w400
+                                                        ),
+                                                      ),
+                                                  ],),
+                                                  ),
+                                                ),
+
+                                                  ],
                                                 ),
                                               ),
 
-                                                                                            ],
+                                                                                        ],
 
                                           ),
                                         )
