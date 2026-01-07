@@ -626,7 +626,7 @@ class MyHomePage extends StatelessWidget {
         //Section des boissons
         Container(
           width: MediaQuery.of(context).size.width,
-          height: 370,
+          // height: 370,
           child:  Column(
             children: [
               Wrap(
@@ -802,18 +802,254 @@ class MyHomePage extends StatelessWidget {
           ),
         ),
 
-                Container(
-                  color: Colors.red,
-                  height: 128,
+
+        //Section des desserts
+        Container(
+          width: MediaQuery.of(context).size.width,
+          // height: 370,
+          child:  Column(
+            children: [
+             Wrap(
+                children: [
+                  Container(),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  Text(
+                    "La touche sucrée pour finir en beauté",
+                    style: TextStyle(
+                        fontSize: 25,
+                        color: Colors.brown,
+                        fontWeight: FontWeight.w700
+                    ),
+                  ),
+
+                ],
+              ),
+              Container(
+                // color: const Color(0xFFFF99C8),
+                width: MediaQuery.of(context).size.width,
+                child: Padding(
+                    // padding: const EdgeInsets.fromLTRB(10,15,90,15),
+                    padding: const EdgeInsets.all(0),
+                    child:  Row(
+                        children: [
+
+                          //Bo
+                          Column(
+                            children: [
+                              Row(
+                                children: [
+                                  Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Card(
+                                        clipBehavior: Clip.antiAlias,
+                                        elevation: 8,
+                                        margin: EdgeInsets.fromLTRB(5,0,5,5),
+                                        // margin: EdgeInsets.all(5),
+                                        child: Stack(
+                                          children: [
+                                            Image.asset(
+                                              "assets/images/oreo-ice.jpg",
+                                              fit: BoxFit.cover,
+                                              height: 170,
+                                              width: 170,
+                                            ),
+                                            Container(
+                                              height: 170,
+                                              // color: Colors.yellow,
+                                              // padding: EdgeInsets.fromLTRB(0, 70, 0, 50),
+                                              width: 170,
+                                              child: const Center(
+                                                child: Card(
+                                                  clipBehavior: Clip.antiAlias,
+                                                  child: Text(
+                                                    "Glace Oreo",
+                                                  
+                                                    textAlign: TextAlign.center,
+                                                    style: TextStyle(
+                                                        fontSize: 25,
+                                                        color: Colors.pinkAccent,
+                                                        fontWeight: FontWeight.w700,
+                                                      backgroundColor: Colors.white,
+                                                  
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            )
+                                          ],
+                                        ),
+                                      ),
+
+                                    ],
+                                  ),
+
+                                  Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Card(
+                                        clipBehavior: Clip.antiAlias,
+                                        elevation: 8,
+                                        margin: EdgeInsets.fromLTRB(5,0,5,5),
+                                        // margin: EdgeInsets.all(5),
+                                        child: Stack(
+                                          children: [
+                                            Image.asset(
+                                              "assets/images/strawberry-waffle.jpg",
+                                              fit: BoxFit.cover,
+                                              height: 170,
+                                              width: 170,
+                                            ),
+                                            Container(
+                                              height: 170,
+                                              // color: Colors.yellow,
+                                              // padding: EdgeInsets.fromLTRB(0, 70, 0, 50),
+                                              width: 170,
+                                              child: const Center(
+                                                child: Card(
+                                                  clipBehavior: Clip.antiAlias,
+                                                  child: Text(
+                                                    "Crêpes fraise",
+
+                                                    textAlign: TextAlign.center,
+                                                    style: TextStyle(
+                                                        fontSize: 25,
+                                                        color: Colors.pinkAccent,
+                                                        fontWeight: FontWeight.w700,
+                                                      backgroundColor: Colors.white,
+
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            )
+                                          ],
+                                        ),
+                                      ),
+
+                                    ],
+                                  ),
+
+
+                                ],
+                              ),
+
+                                   Row(
+                                children: [
+                                  Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Card(
+                                        clipBehavior: Clip.antiAlias,
+                                        elevation: 8,
+                                        margin: EdgeInsets.fromLTRB(5,0,5,5),
+                                        // margin: EdgeInsets.all(5),
+                                        child: Stack(
+                                          children: [
+                                            Image.asset(
+                                              "assets/images/donut.jpg",
+                                              fit: BoxFit.cover,
+                                              height: 170,
+                                              width: 170,
+                                            ),
+                                            Container(
+                                              height: 170,
+                                              // color: Colors.yellow,
+                                              // padding: EdgeInsets.fromLTRB(0, 70, 0, 50),
+                                              width: 170,
+                                              child: const Center(
+                                                child: Card(
+                                                  clipBehavior: Clip.antiAlias,
+                                                  child: Text(
+                                                    "Donut",
+
+                                                    textAlign: TextAlign.center,
+                                                    style: TextStyle(
+                                                        fontSize: 25,
+                                                        color: Colors.pinkAccent,
+                                                        fontWeight: FontWeight.w700,
+                                                      backgroundColor: Colors.white,
+
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            )
+                                          ],
+                                        ),
+                                      ),
+
+                                    ],
+                                  ),
+
+                                  Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Card(
+                                        clipBehavior: Clip.antiAlias,
+                                        elevation: 8,
+                                        margin: EdgeInsets.fromLTRB(5,0,5,5),
+                                        // margin: EdgeInsets.all(5),
+                                        child: Stack(
+                                          children: [
+                                            Image.asset(
+                                              "assets/images/cupcake.jpg",
+                                              fit: BoxFit.cover,
+                                              height: 170,
+                                              width: 170,
+                                            ),
+                                            Container(
+                                              height: 170,
+                                              // color: Colors.yellow,
+                                              // padding: EdgeInsets.fromLTRB(0, 70, 0, 50),
+                                              width: 170,
+                                              child: const Center(
+                                                child: Card(
+                                                  clipBehavior: Clip.antiAlias,
+                                                  child: Text(
+                                                    "Cupcake",
+
+                                                    textAlign: TextAlign.center,
+                                                    style: TextStyle(
+                                                        fontSize: 25,
+                                                        color: Colors.pinkAccent,
+                                                        fontWeight: FontWeight.w700,
+                                                      backgroundColor: Colors.white,
+
+                                                    ),
+                                                  ),
+                                                ),
+                                              ),
+                                            )
+                                          ],
+                                        ),
+                                      ),
+
+                                    ],
+                                  ),
+
+
+                                ],
+                              ),
+
+
+                            ],
+                          )
+
+                        ],
+
+                      ),
+                    )
                 ),
-                Container(
-                  color: Colors.brown,
-                  height: 254,
-                ),
-                Container(
-                  color: Colors.red,
-                  height: 128,
-                ),
+            ],
+
+
+          ),
+        ),
+
+
           ],
         ),
       ),
