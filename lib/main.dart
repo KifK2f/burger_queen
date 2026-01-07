@@ -691,7 +691,7 @@ class MyHomePage extends StatelessWidget {
                             ),
                           ),
 
-//Boisson Le classique
+                          //Eau gazeuse
                           Container(
                             margin: const EdgeInsets.fromLTRB(10,10,15,10),
                             child: Column(
@@ -701,7 +701,7 @@ class MyHomePage extends StatelessWidget {
                                   alignment: Alignment.center,
                                   children: [
                                       Image.asset(
-                                        "assets/images/classic-cola.jpg",
+                                        "assets/images/sparkling.jpg",
                                         fit: BoxFit.cover,
                                         width: 150,
                                         height: 280,
@@ -710,7 +710,7 @@ class MyHomePage extends StatelessWidget {
                                       // color: Colors.yellow,
                                       height: 280,
                                       child: Text(
-                                        "Le classique",
+                                        "Eau gazeuse",
                                         style: TextStyle(
                                             fontSize: 20,
                                             color: Colors.pinkAccent,
@@ -724,7 +724,7 @@ class MyHomePage extends StatelessWidget {
                             ),
                           ),
 
-//Boisson Le classique
+                          //Boisson A l'orange
                           Container(
                             margin: const EdgeInsets.fromLTRB(10,10,15,10),
                             child: Column(
@@ -734,7 +734,7 @@ class MyHomePage extends StatelessWidget {
                                   alignment: Alignment.center,
                                   children: [
                                       Image.asset(
-                                        "assets/images/classic-cola.jpg",
+                                        "assets/images/orange-soda.jpg",
                                         fit: BoxFit.cover,
                                         width: 150,
                                         height: 280,
@@ -743,7 +743,7 @@ class MyHomePage extends StatelessWidget {
                                       // color: Colors.yellow,
                                       height: 280,
                                       child: Text(
-                                        "Le classique",
+                                        "A l'orange",
                                         style: TextStyle(
                                             fontSize: 20,
                                             color: Colors.pinkAccent,
@@ -757,7 +757,7 @@ class MyHomePage extends StatelessWidget {
                             ),
                           ),
 
-//Boisson Le classique
+                        //Boisson Goût fraise
                           Container(
                             margin: const EdgeInsets.fromLTRB(10,10,15,10),
                             child: Column(
@@ -767,7 +767,7 @@ class MyHomePage extends StatelessWidget {
                                   alignment: Alignment.center,
                                   children: [
                                       Image.asset(
-                                        "assets/images/classic-cola.jpg",
+                                        "assets/images/strawberry-soda.jpg",
                                         fit: BoxFit.cover,
                                         width: 150,
                                         height: 280,
@@ -776,7 +776,7 @@ class MyHomePage extends StatelessWidget {
                                       // color: Colors.yellow,
                                       height: 280,
                                       child: Text(
-                                        "Le classique",
+                                        "Goût fraise",
                                         style: TextStyle(
                                             fontSize: 20,
                                             color: Colors.pinkAccent,
@@ -789,74 +789,6 @@ class MyHomePage extends StatelessWidget {
                               ],
                             ),
                           ),
-
-//Boisson Le classique
-                          Container(
-                            margin: const EdgeInsets.fromLTRB(10,10,15,10),
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Stack(
-                                  alignment: Alignment.center,
-                                  children: [
-                                      Image.asset(
-                                        "assets/images/classic-cola.jpg",
-                                        fit: BoxFit.cover,
-                                        width: 150,
-                                        height: 280,
-                                      ),
-                                    Container(
-                                      // color: Colors.yellow,
-                                      height: 280,
-                                      child: Text(
-                                        "Le classique",
-                                        style: TextStyle(
-                                            fontSize: 20,
-                                            color: Colors.pinkAccent,
-                                            fontWeight: FontWeight.w700
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-
-//Boisson Le classique
-                          Container(
-                            margin: const EdgeInsets.fromLTRB(10,10,15,10),
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
-                                Stack(
-                                  alignment: Alignment.center,
-                                  children: [
-                                      Image.asset(
-                                        "assets/images/classic-cola.jpg",
-                                        fit: BoxFit.cover,
-                                        width: 150,
-                                        height: 280,
-                                      ),
-                                    Container(
-                                      // color: Colors.yellow,
-                                      height: 280,
-                                      child: Text(
-                                        "Le classique",
-                                        style: TextStyle(
-                                            fontSize: 20,
-                                            color: Colors.pinkAccent,
-                                            fontWeight: FontWeight.w700
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ],
-                            ),
-                          ),
-
-
 
                         ],
 
